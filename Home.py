@@ -10,7 +10,7 @@ def get_base64_of_bin_file(bin_file):
     return base64.b64encode(data).decode()
 
 # Codificar la imagen de fondo
-img_base64 = get_base64_of_bin_file('fondo.jpeg')
+img_base64 = get_base64_of_bin_file('fondo.jpg')
 
 # CSS para establecer la imagen de fondo
 page_bg_img = f'''
