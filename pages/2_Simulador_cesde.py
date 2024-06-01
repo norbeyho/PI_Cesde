@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 
 st.write("Simulador Cesde")
 
-df = pd.read_csv('static/datasets/data.csv')
+df = pd.read_csv('static/cesde.csv')
 
 gruposU = sorted(df['GRUPO'].unique())
 nivelesU = sorted(df['NIVEL'].unique())
